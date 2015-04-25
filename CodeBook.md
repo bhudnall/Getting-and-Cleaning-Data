@@ -44,7 +44,7 @@ activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
 **Add Column Names**
 
-Using the feature file we hadd the column names
+Using the feature file we add the column names
 `````
 names(train_data) <- features
 names(test_data) <- features
